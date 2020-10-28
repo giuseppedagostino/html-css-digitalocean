@@ -3,6 +3,8 @@
   <head>
     <meta charset="utf-8">
     <title>DigitalOcean</title>
+    <!-- questa serve a far funzionare correttamente il responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- link a font awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.css" integrity="sha512-f73UKwzP1Oia45eqHpHwzJtFLpvULbhVpEJfaWczo/ZCV5NWSnK4vLDnjTaMps28ocZ05RbI83k2RlQH92zy7A==" crossorigin="anonymous" />
     <!-- link a Bootstrap -->
@@ -21,24 +23,43 @@
           <div class="col-xs-6 col-lg-3">
             <img src="img/logo.webp" alt="Logo">
           </div>
-          
+
           <!-- colonna del menù centrale -->
           <div class="col-lg-5 hidden-md hidden-sm hidden-xs">
             <ul class="list-unstyled list-inline">
-              <li>ciao</li>
-              <li>ciao</li>
-              <li>ciao</li>
-              <li>ciao</li>
+              <!-- primo button -->
+              <li>
+                <button type="button" class="btn dropdown-toggle button_header">Products
+                  <span class="glyphicon glyphicon-menu-down"></span>
+                </button>
+              </li>
+              <li><a href="">Customers</a></li>
+              <!-- secondo button -->
+              <li>
+                <button type="button" class="btn dropdown-toggle button_header">Community
+                  <span class="glyphicon glyphicon-menu-down"></span>
+                </button>
+              </li>
+              <li><a href="">Pricing</a></li>
             </ul>
           </div>
 
           <!-- colonna del menù a destra -->
           <div class="col-lg-4 hidden-md hidden-sm hidden-xs">
             <ul class="list-unstyled list-inline">
-              <li>ciao</li>
-              <li>ciao</li>
-              <li>ciao</li>
-              <li>ciao</li>
+              <li><a href="">Docs</a></li>
+              <li>
+                <button type="button" class="btn dropdown-toggle button_header">Support
+                  <span class="glyphicon glyphicon-menu-down"></span>
+                </button>
+              </li>
+              <li><a href="">Login</a></li>
+              <!-- questo è il button che si distingue -->
+              <li>
+                <button type="button" class="btn dropdown-toggle" id="button_signup">Sign Up
+                  <span class="glyphicon glyphicon-menu-down"></span>
+                </button>
+              </li>
             </ul>
           </div>
 

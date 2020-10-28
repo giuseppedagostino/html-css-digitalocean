@@ -28,6 +28,8 @@ header img {
   /* ho fissato la larghezza poichè l'immagine resta di uguale dimensione su tutti i dispositivi */
   width: 200px;
 }
+.button_header {}
+#button_signup {}
 
 /* INIZIO MAIN ------------------------------*/
 /* JUMBOTRON */
