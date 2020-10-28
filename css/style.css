@@ -47,6 +47,10 @@ header .button_header:hover {
   background-color: transparent;
   border: 1px solid #2285FD;
 }
+#button_signup:hover {
+  color: white;
+  background-color: #2285FD;
+}
 #hamburger_icon {
   color: #2285FD;
   font-size: 22px;
