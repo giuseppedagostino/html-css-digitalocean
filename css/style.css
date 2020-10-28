@@ -4,15 +4,22 @@
 
 /* REGOLE DI DEBUG_ */
 .debug [class*="container"] {
-  background-color: lightgreen;
   height: 100%;
+  background-color: lightgreen;
 }
 .debug [class*="row"] {
-  background-color: lightblue;
   height: 80%;
+  background-color: lightcoral;
+}
+.debug #jumbotron [class*="col-"] {
+  height: 100%;
+  border: 1px solid black;
 }
 
 /* REGOLE COMUNI */
+h1, h2, h3 {
+  font-weight: bold;
+}
 
 /* HEADER */
 header {
@@ -58,6 +65,10 @@ header .button_header:hover {
 
 /* INIZIO MAIN ------------------------------*/
 /* JUMBOTRON */
+#jumbotron {
+  margin-top: 80px;
+  background-color: lightblue;
+}
 
 /* SPONSORS */
 
