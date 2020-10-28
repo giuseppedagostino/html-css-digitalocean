@@ -1,3 +1,7 @@
+/* COLORI */
+/* di default Anchor e Button hanno questo colore #020202 */
+/* con hover Anchor e Button hanno questo colore #2285FD */
+
 /* REGOLE DI DEBUG_ */
 .debug [class*="container"] {
   background-color: lightgreen;
@@ -6,10 +10,6 @@
 .debug [class*="row"] {
   background-color: lightblue;
   height: 80%;
-}
-.debug [class*="col-"] {
-  /* background-color: black;
-  height: 60%; */
 }
 
 /* REGOLE COMUNI */
@@ -28,8 +28,29 @@ header img {
   /* ho fissato la larghezza poichè l'immagine resta di uguale dimensione su tutti i dispositivi */
   width: 200px;
 }
-.button_header {}
-#button_signup {}
+header a, button {
+  color: #020202;
+}
+header a:hover {
+  color: #2285FD;
+  text-decoration: none;
+}
+header .button_header:hover {
+  color: #2285FD;
+}
+.button_header {
+  background-color: transparent;
+  border: 1px solid white;
+}
+#button_signup {
+  color: #2285FD;
+  background-color: transparent;
+  border: 1px solid #2285FD;
+}
+#hamburger_icon {
+  color: #2285FD;
+  font-size: 22px;
+}
 
 /* INIZIO MAIN ------------------------------*/
 /* JUMBOTRON */
