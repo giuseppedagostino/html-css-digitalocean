@@ -3,14 +3,14 @@
 /* con hover Anchor e Button hanno questo colore #2285FD */
 
 /* REGOLE DI DEBUG_ */
-.debug [class*="container"] {
+/* .debug [class*="container"] {
   height: 100%;
   background-color: lightgreen;
 }
 .debug [class*="row"] {
   height: 80%;
   background-color: lightcoral;
-}
+} */
 .debug #jumbotron [class*="col-"] {
   height: 100%;
   border: 1px solid black;
@@ -67,7 +67,38 @@ header .button_header:hover {
 /* JUMBOTRON */
 #jumbotron {
   margin-top: 80px;
-  background-color: lightblue;
+  background-color: #004AFF;
+}
+#jumbotron .row {
+  padding: 40px 0;
+}
+#jumbotron h1 {
+  color: white;
+  font-size: 48px;
+}
+#jumbotron .col-md-7 p {
+  color: white;
+  opacity: 0.5;
+}
+#jumbotron_right {
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px 10px;
+  background-color: white;
+  border-radius: 5px;
+}
+#jumbotron_right h3 {
+  line-height: 32px;
+}
+#h3_blue {
+  color: #2285FD;
+}
+.jumbotron_input_text {
+  width: 100%;
+  padding: 10px;
+  background-color: transparent;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
 }
 
 /* SPONSORS */
