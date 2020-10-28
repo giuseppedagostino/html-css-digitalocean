@@ -1,6 +1,33 @@
+/* REGOLE DI DEBUG_ */
+.debug [class*="container"] {
+  background-color: lightgreen;
+  height: 100%;
+}
+.debug [class*="row"] {
+  background-color: lightblue;
+  height: 80%;
+}
+.debug [class*="col-"] {
+  /* background-color: black;
+  height: 60%; */
+}
+
 /* REGOLE COMUNI */
 
 /* HEADER */
+header {
+  position: fixed;
+  top: 0;
+  z-index: 2;
+  height: 80px;
+  width: 100%;
+  line-height: 80px;
+  background-color: white;
+}
+header img {
+  /* ho fissato la larghezza poichè l'immagine resta di uguale dimensione su tutti i dispositivi */
+  width: 200px;
+}
 
 /* INIZIO MAIN ------------------------------*/
 /* JUMBOTRON */
