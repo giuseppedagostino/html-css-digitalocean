@@ -11,15 +11,20 @@
   height: 80%;
   background-color: lightcoral;
 } */
-.debug #jumbotron [class*="col-"] {
+.debug #sponsors [class*="col-"] {
   height: 100%;
   border: 1px solid black;
 }
 
 /* REGOLE COMUNI */
+* {
+  font-size: 16px;
+}
 h1, h2, h3 {
   font-weight: bold;
 }
+/* questo è il div largo l'80% della pagina che contiene praticamente ogni cosa */
+.wrapper_80 {}
 
 /* HEADER */
 header {
@@ -46,10 +51,12 @@ header .button_header:hover {
   color: #2285FD;
 }
 .button_header {
+  font-size: 16px;
   background-color: transparent;
   border: 1px solid white;
 }
 #button_signup {
+  font-size: 16px;
   color: #2285FD;
   background-color: transparent;
   border: 1px solid #2285FD;
@@ -74,31 +81,79 @@ header .button_header:hover {
 }
 #jumbotron h1 {
   color: white;
-  font-size: 48px;
+  font-size: 62px;
 }
 #jumbotron .col-md-7 p {
+  font-size: 1.4em;
   color: white;
   opacity: 0.5;
 }
 #jumbotron_right {
-  width: 90%;
+  width: 97.5%;
   margin: 0 auto;
-  padding: 20px 10px;
+  padding: 25px 15px;
   background-color: white;
   border-radius: 5px;
 }
 #jumbotron_right h3 {
+  margin-top: 0;
   line-height: 32px;
 }
 #h3_blue {
+  /* questa è la dimensione degli h3 di default data da Bootstrap, l'ho riscritta perchè questo in realtà è uno span e prendeva i 16px */
+  font-size: 24px;
   color: #2285FD;
 }
 .jumbotron_input_text {
   width: 100%;
   padding: 10px;
+  margin-bottom: 12.5px;
   background-color: transparent;
   border: 1px solid rgba(0, 0, 0, 0.2);
   border-radius: 5px;
+}
+#button_blue {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 5px;
+  color: white;
+  background-color: #004AFF;
+  border: 1px solid #004AFF;
+  opacity: 0.75;
+  border-radius: 5px;
+}
+#button_blue:hover {
+  opacity: 1;
+}
+#button_google {
+  position: relative;
+  width: 100%;
+  padding: 5px;
+  font-weight: bold;
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px #888888;
+}
+#button_google:hover {
+  color: #004AFF;
+}
+#button_google img {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translate(0, -50%);
+  width: 17.5px;
+}
+#jumbotron_right p {
+  font-size: 0.75em;
+  /* font-weight: bold; */
+  margin-top: 15px;
+}
+#jumbotron_right a {
+  /* perchè col gli stessi em l'anchor risultava più piccola?!?!?!?! */
+  font-size: 0.975em;
+  text-decoration: underline;
 }
 
 /* SPONSORS */
