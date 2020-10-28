@@ -1,6 +1,8 @@
 /* COLORI */
 /* BLU CHIARO #2285FD */
 /* BLU SCURO #004AFF*/
+/* SFONDO GRIGIO CHIARO #F3F5F9 */
+/* GRIGIO SCURO  #5B6987*/
 
 /* REGOLE DI DEBUG_ */
 /* .debug [class*="container"] {
@@ -20,7 +22,7 @@
 * {
   font-size: 16px;
 }
-h1, h2, h3 {
+h1, h2, h3, h4 {
   font-weight: bold;
 }
 /* questo è il div largo l'80% della pagina che contiene praticamente ogni cosa */
@@ -157,7 +159,21 @@ header .button_header:hover {
 }
 
 /* SPONSORS */
-
+#sponsors {
+  text-align: center;
+  background-color: #F3F5F9;
+}
+#sponsors h4:first-child {
+  padding: 40px 0;
+  color: #5B6987;
+}
+#sponsors h4 {
+  padding: 40px 0;
+  color: #004AFF;
+}
+#sponsors h4 > i {
+  padding-left: 10px;
+}
 /* FEATURES */
 
 /* DESIGN */
