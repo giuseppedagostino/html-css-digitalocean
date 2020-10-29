@@ -14,7 +14,7 @@
   height: 80%;
   background-color: lightcoral;
 } */
-.debug #regions [class*="col-"] {
+.debug #reviews [class*="col-"] {
   border: 1px solid black;
   background-color: lightcoral;
 }
@@ -305,14 +305,40 @@ header .button_header:hover {
 }
 #regions h2 {
   color: white;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
-.single_region {}
-.span_left {}
-.span_center {}
-.span_right {}
+.single_region {
+  position: relative;
+  line-height: 35px;
+  border-bottom: 1px solid white;
+}
+.span_left {
+  font-weight: bold;
+  color: white;
+}
+.span_center {
+  padding-left: 50px;
+  color: white;
+  opacity: 0.5;
+}
+.span_right {
+  position: absolute;
+  right: 0;
+  text-align: right;
+}
+.span_right i {
+  margin: 0 10px;
+}
+.single_region a {
+  color: rgb(0, 215, 210);
+}
+.single_region a:hover {
+  text-decoration: none;
+  color: #004AFF;
+}
 
 /* REVIEWS */
+#reviews {}
 /* FINE MAIN ------------------------------*/
 
 /* FOOTER TOP */
