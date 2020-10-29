@@ -233,7 +233,32 @@ header .button_header:hover {
 }
 
 /* DESIGN */
-#design {}
+#design {
+  padding: 30px;
+  background-color: #F3F5F9;
+}
+#design img {
+  margin: auto;
+  max-width: 80%;
+}
+#design div > i {
+  padding: 15px;
+  font-size: 30px;
+}
+#design div > i:hover {
+  color: #004AFF;
+  cursor: pointer;
+}
+#design ul > li > i {
+  font-size: 10px;
+  color: transparent;
+  border: 2px solid #004AFF;
+  border-radius: 50%;
+}
+#design ul > li > i:hover {
+  color: #004AFF;
+  cursor: pointer;
+}
 /* BUSINESS FEATURES */
 
 /* REGIONS */
