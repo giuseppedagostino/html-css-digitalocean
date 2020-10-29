@@ -32,6 +32,9 @@ h1, h2, h3, h4 {
   margin: auto;
   width: 70%;
 }
+.light_p {
+  color: #5B6987;
+}
 
 /* HEADER */
 header {
@@ -155,7 +158,6 @@ header .button_header:hover {
 }
 #jumbotron_right p {
   font-size: 0.75em;
-  /* font-weight: bold; */
   margin-top: 15px;
 }
 #jumbotron_right a {
@@ -201,9 +203,6 @@ header .button_header:hover {
 #features {
   padding: 30px 0;
 }
-#features > .container > p {
-  color: #5B6987;
-}
 #vertical_list li {
   margin-right: 50%;
   padding-left: 10px;
@@ -230,16 +229,12 @@ header .button_header:hover {
 }
 .wrapper_70 .col-md-6 p {
   padding: 0;
-  color: #5B6987;
 }
 
 /* DESIGN */
 #design {
   padding: 30px;
   background-color: #F3F5F9;
-}
-#design > .container > .row > p {
-  color: #5B6987;
 }
 #design img {
   margin: auto;
@@ -276,7 +271,9 @@ header .button_header:hover {
 }
 
 /* BUSINESS FEATURES */
-#business_features {}
+#business_features {
+  height: 400px;
+}
 /* REGIONS */
 
 /* REVIEWS */
