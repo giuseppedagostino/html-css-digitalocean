@@ -24,8 +24,12 @@
 h1, h2, h3, h4 {
   font-weight: bold;
 }
-/* questo è il div largo l'80% della pagina che contiene praticamente ogni cosa, nel caso in cui io decida di usarlo... */
-.wrapper_80 {}
+/* questo è il div largo il 70% della pagina che contiene quelle sezioni più strette */
+.wrapper_70 {
+  padding-top: 30px;
+  margin: auto;
+  width: 70%;
+}
 
 /* HEADER */
 header {
@@ -191,7 +195,13 @@ header .button_header:hover {
 }
 
 /* FEATURES */
-
+#features {
+  padding: 40px 0;
+}
+#vertical_list {
+  /* l'altezza è fissata momentaneamente */
+  height: 200px;
+}
 /* DESIGN */
 
 /* BUSINESS FEATURES */
