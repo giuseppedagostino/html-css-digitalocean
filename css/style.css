@@ -13,8 +13,7 @@
   height: 80%;
   background-color: lightcoral;
 } */
-.debug #sponsors [class*="col-"] {
-  height: 100%;
+.debug #features [class*="col-"] {
   border: 1px solid black;
 }
 
@@ -25,7 +24,7 @@
 h1, h2, h3, h4 {
   font-weight: bold;
 }
-/* questo è il div largo l'80% della pagina che contiene praticamente ogni cosa */
+/* questo è il div largo l'80% della pagina che contiene praticamente ogni cosa, nel caso in cui io decida di usarlo... */
 .wrapper_80 {}
 
 /* HEADER */
@@ -153,8 +152,8 @@ header .button_header:hover {
   margin-top: 15px;
 }
 #jumbotron_right a {
-  /* perchè col gli stessi em l'anchor risultava più piccola?!?!?!?! */
-  font-size: 0.975em;
+  /* ho scritto 1em perchè gli em sono una misura relativa ereditata dal padre */
+  font-size: 1em;
   text-decoration: underline;
 }
 
@@ -164,16 +163,33 @@ header .button_header:hover {
   background-color: #F3F5F9;
 }
 #sponsors h4:first-child {
-  padding: 40px 0;
+  padding-top: 40px;
+  padding-bottom: 20px;
   color: #5B6987;
 }
-#sponsors h4 {
-  padding: 40px 0;
+#stories a {
+  line-height: 30px;
   color: #004AFF;
+  opacity: 0.8;
 }
-#sponsors h4 > i {
+#stories a:hover {
+  text-decoration: none;
+  opacity: 1;
+}
+#sponsors h4 > a > i {
   padding-left: 10px;
 }
+#sponsors .col-md-12 {
+  height: 125px;
+}
+#sponsors .col-md-12 .col-xs-6, .col-md-2 {
+  height: 100%;
+}
+#sponsors img {
+  height: 100%;
+  width: 100%;
+}
+
 /* FEATURES */
 
 /* DESIGN */
