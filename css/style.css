@@ -1,6 +1,7 @@
 /* COLORI */
 /* BLU CHIARO #2285FD */
 /* BLU SCURO #004AFF*/
+/* BLU SCURISSIMO TESTI HEADER #020202 */
 /* SFONDO GRIGIO CHIARO #F3F5F9 */
 /* GRIGIO SCURO  #5B6987*/
 
@@ -236,6 +237,9 @@ header .button_header:hover {
 #design {
   padding: 30px;
   background-color: #F3F5F9;
+}
+#design > .container > .row > p {
+  color: #5B6987;
 }
 #design img {
   margin: auto;
