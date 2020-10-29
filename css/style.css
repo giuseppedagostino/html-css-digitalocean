@@ -198,10 +198,7 @@ header .button_header:hover {
 #features {
   padding: 40px 0;
 }
-#vertical_list {
-  /* l'altezza è fissata momentaneamente */
-  height: 200px;
-}
+#vertical_list {}
 #features img {
   height: 25px;
 }
