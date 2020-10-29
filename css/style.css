@@ -159,11 +159,11 @@ header .button_header:hover {
 
 /* SPONSORS */
 #sponsors {
+  padding: 40px 0;
   text-align: center;
   background-color: #F3F5F9;
 }
 #sponsors h4:first-child {
-  padding-top: 40px;
   padding-bottom: 20px;
   color: #5B6987;
 }
