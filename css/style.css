@@ -41,6 +41,7 @@ header {
   width: 100%;
   line-height: 80px;
   background-color: white;
+  box-shadow: 2px 2px 2px #888888;
 }
 header img {
   /* ho fissato la larghezza poichè l'immagine resta di uguale dimensione su tutti i dispositivi */
@@ -202,11 +203,10 @@ header .button_header:hover {
 #features > .container > p {
   color: #5B6987;
 }
-#vertical_list {}
 #vertical_list li {
-  margin-left: 10%;
   margin-right: 50%;
   padding-left: 10px;
+  color: #5B6987;
   border-left: 1px solid black;
 }
 #vertical_list h4 {
@@ -226,6 +226,10 @@ header .button_header:hover {
 /* questa istruzione fa "spazio" tra i riquadri */
 .col-xs-12, .col-md-8 > .row:first-child {
   margin-bottom: 20px;
+}
+.wrapper_70 .col-md-6 p {
+  padding: 0;
+  color: #5B6987;
 }
 
 /* DESIGN */
