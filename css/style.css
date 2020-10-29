@@ -300,12 +300,18 @@ header .button_header:hover {
 
 /* REGIONS */
 #regions {
-  background-color: #004AFF;
+  background: linear-gradient(180deg, rgba(0,71,197,1) 0%, rgba(0,33,156,1) 100%);
   padding: 30px;
 }
 #regions h2 {
   color: white;
+  margin-bottom: 20px;
 }
+.single_region {}
+.span_left {}
+.span_center {}
+.span_right {}
+
 /* REVIEWS */
 /* FINE MAIN ------------------------------*/
 
