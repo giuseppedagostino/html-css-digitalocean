@@ -221,11 +221,12 @@
             <h2>Designed for developers</h2>
             <p>Build more and spend less time managing your infrastructure with our easy-to-use control panel and API.</p>
 
-            <div class="col-xs-offset-2 col-xs-8 col-lg-offset-4 col-lg-6">
+            <div class="col-xs-offset-2 col-xs-8">
 
-              <i class="fas fa-angle-left"></i>
+              <!-- perchè cavolo le frecce non scompaiono sotto gli sm?!?!?!? Ci ho provato in mille modi, va fatto per forza con una media query? -->
+              <i class="hidden-sm-down fas fa-angle-left"></i>
               <img src="img/design.jpg" alt="Create Droplets">
-              <i class="fas fa-angle-right"></i>
+              <i class="hidden-sm-down fas fa-angle-right"></i>
 
               <p>Create compute servers in 55 seconds or less</p>
               <ul class="list-unstyled list-inline">
@@ -242,7 +243,13 @@
       <!-- FINE DESIGN -->
 
       <!-- BUSINESS FEATURES -->
-      <div id="business_features"></div>
+      <div id="business_features">
+        <div class="container">
+          <div class="row">
+            
+          </div>
+        </div>
+      </div>
       <!-- FINE BUSINESS FEATURES -->
 
       <!-- REGIONS -->
