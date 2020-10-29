@@ -202,6 +202,12 @@ header .button_header:hover {
   /* l'altezza è fissata momentaneamente */
   height: 200px;
 }
+#features img {
+  height: 25px;
+}
+#features .wrapper_70 .row div:nth-child(4,5) {
+  padding-top: 30px;
+}
 /* DESIGN */
 
 /* BUSINESS FEATURES */
