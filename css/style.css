@@ -302,7 +302,9 @@ header .button_header:hover {
 #regions {
   background-color: #004AFF;
   padding: 30px;
-  height: 300px;
+}
+#regions h2 {
+  color: white;
 }
 /* REVIEWS */
 /* FINE MAIN ------------------------------*/
