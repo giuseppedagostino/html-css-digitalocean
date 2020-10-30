@@ -345,12 +345,33 @@ header .button_header:hover {
 }
 #rockerbox {
   display: inline-block;
-  margin: auto;
-  height: 100px;
-  background-color: lightcoral;
+  max-width: 80%;
+  border: 1px solid black;
 }
-#rockerbox > p:nth-child(2) {
+#rockerbox img {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+#rockerbox h6 {
+  margin-top: 15px;
+  margin-bottom: 0;
+}
+#rockerbox span {
+  font-size: 0.85em;
+}
+#rockerbox a {
+  display: block;
+  margin: 30px 0;
+  color: #004AFF;
+  opacity: 0.8;
+}
+#rockerbox a:hover {
+  text-decoration: none;
+  opacity: 1;
+}
+#rockerbox a > i {
   font-size: 0.8em;
+  margin-left: 15px;
 }
 #reviews div > i {
   margin: 0;
