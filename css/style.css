@@ -378,6 +378,7 @@ header .button_header:hover {
   /* solo con la percentuale riesco a non far andare a capo le frecce */
   padding: 2%;
   font-size: 40px;
+  margin-top: 0;
 }
 #reviews div > i:hover {
   color: #004AFF;
@@ -397,10 +398,25 @@ header .button_header:hover {
 
 /* FOOTER TOP */
 #footer_top {
-  height: 200px;
   background: linear-gradient(180deg, rgba(0,71,197,1) 0%, rgba(0,33,156,1) 100%);
-  padding: 30px;
+  padding: 40px;
+}
+#footer_top h2 {
+  color: white;
+}
+#footer_top button {
+  margin: 10px 0;
+  padding: 10px;
+  color: #2285FD;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+#footer_top button:hover {
+  opacity: 0.8;
 }
 
 /* FOOTER BOTTOM */
-#footer_bottom {}
+#footer_bottom {
+  background-color: #010E28;
+  height: 200px;
+}
