@@ -12,10 +12,6 @@
 .debug #design [class*="col-"] {
   border: 1px solid black;
 }
-.debug #footer_bottom [class*="col-"] {
-  border: 1px solid black;
-  /* background-color: lightgreen; */
-}
 
 /* REGOLE COMUNI */
 * {
@@ -78,6 +74,73 @@ header .button_header:hover {
   color: #2285FD;
   font-size: 22px;
 }
+/* sezione bonus inventata da me */
+#products:hover #products_menu {
+  display: block;
+}
+#products_menu {
+  display: none;
+  position: absolute;
+  top: 60px;
+  left: 450px;
+  padding: 10px 20px;
+  background-color: white;
+  box-shadow: 2px 2px 2px #888888;
+  border-radius: 10px;
+  z-index: 3;
+}
+#community:hover #community_menu {
+  display: block;
+}
+#community_menu {
+  display: none;
+  position: absolute;
+  top: 60px;
+  left: 665px;
+  padding: 10px 20px;
+  background-color: white;
+  box-shadow: 2px 2px 2px #888888;
+  border-radius: 10px;
+  z-index: 3;
+}
+#support:hover #support_menu {
+  display: block;
+}
+#support_menu {
+  display: none;
+  position: absolute;
+  top: 60px;
+  left: 989px;
+  padding: 10px 20px;
+  background-color: white;
+  box-shadow: 2px 2px 2px #888888;
+  border-radius: 10px;
+  z-index: 3;
+}
+/* fine sezione bonus inventata */
+
+/* SEZIONE BONUS */
+#bonus_message {
+  position: fixed;
+  right: 95px;
+  bottom: 25px;
+  width: 300px;
+  background-color: white;
+  border-radius: 5px;
+}
+#bonus_shark {
+  position: fixed;
+  right: 35px;
+  bottom: 35px;
+  height: 50px;
+  width: 50px;
+  background-color: yellow;
+}
+#bonus_shark img {
+  height: 60px;
+  width: 60px;
+}
+/* FINE SEZIONE BONUS */
 
 /* INIZIO MAIN ------------------------------*/
 /* JUMBOTRON */
@@ -428,15 +491,25 @@ header .button_header:hover {
   color: white;
   background-color: #031C4E;
 }
+#footer_bottom img {
+  margin-bottom: 20px;
+}
+#footer_bottom p {
+  margin: 0;
+}
 #footer_bottom .col-lg-4 a i {
+  margin-top: 8px;
   font-size: 30px;
-  margin-top: 20px;
 }
 #footer_bottom a {
-  margin-top: 30px;
   color: white;
   opacity: 0.5;
-
+}
+#footer_bottom h4 {
+  margin-bottom: 0;
+}
+#footer_bottom li {
+  padding-top: 12px;
 }
 #footer_bottom a:hover {
   text-decoration: none;

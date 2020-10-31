@@ -29,14 +29,14 @@
             <ul class="list-unstyled list-inline">
               <!-- primo button -->
               <li>
-                <button type="button" class="btn dropdown-toggle button_header">Products
+                <button type="button" id="products" class="btn dropdown-toggle button_header">Products
                   <span class="glyphicon glyphicon-menu-down"></span>
                 </button>
               </li>
               <li><a href="#">Customers</a></li>
               <!-- secondo button -->
               <li>
-                <button type="button" class="btn dropdown-toggle button_header">Community
+                <button type="button" id="community" class="btn dropdown-toggle button_header">Community
                   <span class="glyphicon glyphicon-menu-down"></span>
                 </button>
               </li>
@@ -49,7 +49,7 @@
             <ul class="list-unstyled list-inline">
               <li><a href="#">Docs</a></li>
               <li>
-                <button type="button" class="btn dropdown-toggle button_header">Support
+                <button type="button" id="support" class="btn dropdown-toggle button_header">Support
                   <span class="glyphicon glyphicon-menu-down"></span>
                 </button>
               </li>
@@ -441,10 +441,10 @@
             <!-- sezione con logo -->
             <div class="col-xs-12 col-md-12 col-lg-4">
               <img src="img/logo_footer.svg" alt="logo">
-              <br>
-              <span><strong>© 2020 DigitalOcean, LLC. All rights reserved.</strong></span>
-              <span>Proudly made in NY</span>
+              <p><strong>© 2020 DigitalOcean, LLC. All rights reserved.</strong></p>
+              <p class="light_p">Proudly made in NY</p>
 
+              <!-- lista social network -->
               <ul class="list-inline list-unstyled">
                 <li>
                   <a href="#"><i class="fab fa-twitter"></i></a>
@@ -526,6 +526,46 @@
       <!-- FINE FOOTER BOTTOM -->
     </footer>
     <!-- FINE FOOTER -->
+
+    <!-- SEZIONE BONUS -->
+    <div id="bonus_message">
+      <p>Can I help answer any questions you have about DigitalOcean?</p>
+    </div>
+    <div id="bonus_shark">
+      <img src="img/shark.png" alt="squaletto DigitalOcean">
+    </div>
+    <!-- FINE SEZIONE BONUS -->
+
+    <!-- SEZIONE BONUS CHE HO INVENTATO -->
+    <!-- dropdown menu del primo button -->
+    <div id="products_menu">
+      <ul class="list-unstyled">
+        <li>Droplets</li>
+        <li>Kubernetes</li>
+        <li>App Platform</li>
+        <li>Databases</li>
+        <li>Spaces</li>
+      </ul>
+    </div>
+
+    <!-- dropdown menu del secondo button -->
+    <div id="community_menu">
+      <ul class="list-unstyled">
+        <li>Overview</li>
+        <li>Tutorials</li>
+        <li>Questions and Answers</li>
+        <li>Tools</li>
+      </ul>
+    </div>
+
+    <!-- dropdown menu del terzo button -->
+    <div id="support_menu">
+      <ul class="list-unstyled">
+        <li>FAQ</li>
+        <li>Contact Us</li>
+      </ul>
+    </div>
+    <!-- FINE SEZIONE BONUS CHE HO INVENTATO -->
 
   </body>
 </html>
