@@ -273,6 +273,11 @@ header .button_header:hover {
 .wrapper_70 .col-md-6 p {
   padding: 0;
 }
+@media screen and (max-width: 768px) {
+  .wrapper_70 {
+    width: 90%;
+  }
+}
 
 /* DESIGN */
 #design {
