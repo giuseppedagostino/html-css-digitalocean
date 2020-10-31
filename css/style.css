@@ -6,12 +6,12 @@
 /* GRIGIO SCURO  #5B6987*/
 
 /* REGOLE DI DEBUG_ */
-.debug #reviews [class*="col-"] {
+/* .debug #reviews [class*="col-"] {
   border: 1px solid black;
 }
 .debug #design [class*="col-"] {
   border: 1px solid black;
-}
+} */
 
 /* REGOLE COMUNI */
 * {
@@ -29,6 +29,9 @@ h1, h2, h3, h4 {
 .light_p {
   color: #5B6987;
 }
+.card {
+  box-shadow: 2px 2px 2px #888888;
+}
 
 /* HEADER */
 header {
@@ -39,7 +42,6 @@ header {
   width: 100%;
   line-height: 80px;
   background-color: white;
-  box-shadow: 2px 2px 2px #888888;
 }
 header img {
   /* ho fissato la larghezza poichè l'immagine resta di uguale dimensione su tutti i dispositivi */
@@ -118,29 +120,6 @@ header .button_header:hover {
   z-index: 3;
 }
 /* fine sezione bonus inventata */
-
-/* SEZIONE BONUS */
-#bonus_message {
-  position: fixed;
-  right: 95px;
-  bottom: 25px;
-  width: 300px;
-  background-color: white;
-  border-radius: 5px;
-}
-#bonus_shark {
-  position: fixed;
-  right: 35px;
-  bottom: 35px;
-  height: 50px;
-  width: 50px;
-  background-color: yellow;
-}
-#bonus_shark img {
-  height: 60px;
-  width: 60px;
-}
-/* FINE SEZIONE BONUS */
 
 /* INIZIO MAIN ------------------------------*/
 /* JUMBOTRON */
@@ -416,7 +395,6 @@ header .button_header:hover {
 #rockerbox {
   display: inline-block;
   max-width: 80%;
-  border: 1px solid black;
 }
 #rockerbox img {
   padding-top: 50px;
@@ -515,3 +493,45 @@ header .button_header:hover {
   text-decoration: none;
   opacity: 1;
 }
+
+/* SEZIONE BONUS */
+#bonus_message {
+  position: fixed;
+  right: 110px;
+  bottom: 40px;
+  width: 300px;
+  height: 60px;
+  padding: 5px;
+  line-height: 25px;
+  background-color: white;
+  border-radius: 5px;
+}
+#bonus_shark {
+  position: fixed;
+  right: 40px;
+  bottom: 40px;
+  height: 60px;
+  width: 60px;
+  border-radius: 5px;
+  overflow: hidden;
+  background-image: url("../img/shark.jfif");
+  background-size: cover;
+  background-position: center;
+}
+#bonus_shark:hover {
+  cursor: pointer;
+}
+#bonus_circle {
+  font-size: 0.8em;
+  position: fixed;
+  bottom: 90px;
+  right: 30px;
+  height: 20px;
+  width: 20px;
+  color: white;
+  background-color: red;
+  border: 2px solid white;
+  border-radius: 50%;
+  z-index: 2;
+}
+/* FINE SEZIONE BONUS */
